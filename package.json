@@ -1,0 +1,19 @@
+{
+  "name": "log-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run seed && node app.js",
+    "seed": "node ./lib/seed.js",
+    "test": "mocha"
+  },
+  "author": "Faisal Al-Tameemi",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "shortid": "^2.2.6"
+  }
+}
