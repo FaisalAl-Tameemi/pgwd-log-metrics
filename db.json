@@ -1,3 +1,30 @@
 {
-  "logs": []
+  "logs": [],
+  "options": {
+    "events": [
+      "purchase",
+      "view",
+      "wishlist"
+    ],
+    "products": {
+      "Accessories": [
+        "Charger",
+        "Laptop Case",
+        "Cellphone Case"
+      ],
+      "Electronics": [
+        "TV",
+        "Laptop",
+        "Cellphone",
+        "Smart Watch",
+        "Headphones",
+        "Spakers"
+      ]
+    },
+    "categories": [
+      "Electronics",
+      "Accessories",
+      "Electronics"
+    ]
+  }
 }
